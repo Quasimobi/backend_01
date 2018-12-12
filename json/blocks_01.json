@@ -1,0 +1,12 @@
+---
+---
+{
+  "slides": [
+    {% for post in site.tags.blocks_01 %}
+      { 
+        "kop":    "{{ post.kop }}",
+        "tekst":  "{{ post.kop }}"
+      } {% unless forloop.last %},{% endunless%}
+    {% endfor %}
+  ]
+}
