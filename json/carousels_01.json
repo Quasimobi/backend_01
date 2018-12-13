@@ -9,7 +9,7 @@
         "tekst_01":     "{{ post.tekst_01 }}",
         "tekst_02":     "{{ post.tekst_02 }}",
         "sterren":      "{{ post.sterren }}",
-        "markie":       "{{ post.excerpt }}"
+        "markxie":       "{{ post.content }}"
       } {% unless forloop.last %},{% endunless%}
     {% endfor %}
   ]
