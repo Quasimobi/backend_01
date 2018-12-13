@@ -1,14 +1,14 @@
 ---
 ---
 {
-  "slides": [
+  "slxxides": [
     {% for post in site.tags.carousel_02 %}
       { 
         "foto_bestand": "{{ post.foto_bestand }}",
         "foto_alt":     "{{ post.foto_alt }}",
         "tekst_01":     "{{ post.tekst_01 }}",
         "tekst_02":     "{{ post.tekst_02 }}",
-        "sterren":      "{{ post.sterren }}",
+        "sterrxxen":      "{{ post.sterren }}",
         "markxie":      "{{ post.url }}"
       } {% unless forloop.last %},{% endunless%}
     {% endfor %}
