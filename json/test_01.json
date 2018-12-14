@@ -5,7 +5,7 @@
     {% for post in site.tags.test_01 %}
       { 
         "var_01":       "xxx{{ post.var_01 }}",
-        "soxciaal":      "{{ post.sociaal | jsonify }}"    
+        "soxciaal":     {{ post.sociaal | jsonify }}
       } {% unless forloop.last %},{% endunless%}
     {% endfor %}
   ]
