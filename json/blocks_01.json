@@ -1,11 +1,12 @@
 ---
 ---
 {
-  "slides": [
+  "blocks": [
     {% for post in site.tags.block_01 %}
       { 
-        "kop":    "{{ post.kop }}",
-        "tekst":  "{{ post.kop }}"
+        "kop":          "{{ post.kop }}",
+        "url":          "{{post.url}}",
+        "content":      "{{ post.content | replace: '"', "'" | strip_newlines }}"    
       } {% unless forloop.last %},{% endunless%}
     {% endfor %}
   ]
