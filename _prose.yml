@@ -4,6 +4,14 @@ prose:
   media:   'images'
   metadata:
     _posts/carousel_01:
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          help: "Uncheck to make this post hidden.</br>ieuwe regel<br>ik weet het niet meer"
+          value: true
+          on: "true"
+          off: "false"    
       - name: "foto_bestand"
         field:
           element: "text"
