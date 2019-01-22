@@ -1,7 +1,7 @@
 prose:          
-  rooturl: "_posts"
-  siteurl: "https://quasimobi.github.io/backend_01/"
-  media:   "images/"
+  rooturl: '_posts'
+  siteurl: 'https://quasimobi.github.io/backend_01/'
+  media:   'images'
   metadata:
     _posts/carousel_01:
       - name: "foto_bestand"
