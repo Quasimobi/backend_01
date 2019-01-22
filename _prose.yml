@@ -1,26 +1,20 @@
-prose:
-  rooturl: 'content'
-  siteurl: 'http://blog.crushingpennies.com/wunderdog/'
-  media: 'content/media'
+prose:          
+  rooturl: ""
+  siteurl: "https://quasimobi.github.io/backend_01/"
+  media:   "images/"
   metadata:
-    content/posts:
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          help: "Uncheck to make this post hidden."
-          value: true
-          on: "true"
-          off: "false"
-      - name: "title"
+    _posts/carousel_01:
+      - name: "foto_bestand"
         field:
           element: "text"
-          label: "Title"
-          help: "The blog post title"
-          placeholder: "Enter title"
-      - name: "date"
-        field:
-          element: "text"
-          label: "Publication Date"
-          help: "The publication date for this post."
-          placeholder: "Enter date in the form YYYY-MM-DD"
+          label: "bestand_label"
+          value:  "bestand_value"
+          help: "bestand_help"
+          placeholder: "bestand_placeholder"
+      - name: "foto_alt"
+          field:
+            element: "text"
+            label: "alt_label"
+            value:  "alt_value"
+            help: "alt_help"
+            placeholder: "alt_placeholder"          
