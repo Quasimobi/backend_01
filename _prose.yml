@@ -1,5 +1,5 @@
 prose:          
-  rooturl: ""
+  rooturl: "_posts"
   siteurl: "https://quasimobi.github.io/backend_01/"
   media:   "images/"
   metadata:
