@@ -6,8 +6,7 @@
       { 
         "foto_bestand": "{{ post.foto_bestand }}",
         "foto_alt":     "{{ post.foto_alt }}",
-        "tekst_01":     "{{ post.tekst_01 }}",
-        "tekst_02":     "{{ post.tekst_02 }}",
+        "tekst":     "{{ post.tekst_01 }}",
         "sterren":      "{{ post.sterren }}",
         "url":          "{{post.url}}",
         "content":      "{{ post.content | replace: '"', "'" | strip_newlines }}"    
