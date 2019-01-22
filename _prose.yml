@@ -12,9 +12,9 @@ prose:
           help: "bestand_help"
           placeholder: "bestand_placeholder"
       - name: "foto_alt"
-          field:
-            element: "text"
-            label: "alt_label"
-            value:  "alt_value"
-            help: "alt_help"
-            placeholder: "alt_placeholder"          
+        field:
+          element: "text"
+          label: "alt_label"
+          value:  "alt_value"
+          help: "alt_help"
+          placeholder: "alt_placeholder"
