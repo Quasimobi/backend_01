@@ -4,6 +4,10 @@ prose:
   media:   'images'
   metadata:
     _posts/carousel_01:
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "carousel_01"    
       - name: "published"
         field:
           element: "checkbox"
